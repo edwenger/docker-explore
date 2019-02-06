@@ -7,5 +7,6 @@ RUN apt-get update && apt-get install -y \
 	openmpi-bin \
 	python3-dev \
 	ssh
-	
+
 COPY bin/Eradication /bin/
+RUN chmod +x /bin/Eradication
